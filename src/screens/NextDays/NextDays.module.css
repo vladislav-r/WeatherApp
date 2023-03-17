@@ -1,0 +1,55 @@
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	background: linear-gradient(180deg, #5123cc 0%, #6c4293 50%, #010101 100%);
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+}
+
+.headerInner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.headerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.headerLeft a {
+	margin-left: 10px;
+}
+
+.main {
+	padding-top: 40px;
+}
+
+.dayInfoDiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+	font-weight: 300;
+	font-size: 14px;
+
+	border-bottom: 1px solid #6d6d6daf;
+}
+
+.dayInfoRight {
+	font-size: 50px;
+}
